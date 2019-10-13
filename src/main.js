@@ -58,6 +58,7 @@ new Vue({
   created () {
   	Firebase.initializeApp(config)
   	Firebase.auth().onAuthStateChanged((user) => {
+      console.log(user)
   		if (user) {
   			console.log('AuthStatechanged: We have a user')
         this.$store.commit('setUser', user)

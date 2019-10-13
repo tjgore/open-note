@@ -2,6 +2,10 @@
 
 ## Build Setup
 
+Update the `.env.js` with your firebase keys
+
+Add them to zeit now with `now secrets add <env-name> <env-variable>`
+
 ``` bash
 # install dependencies
 npm install
@@ -11,4 +15,7 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# Run to deploy to zeit now
+npx now . 
 ```

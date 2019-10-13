@@ -26,7 +26,7 @@
 
           <md-card-content>
             <div class="note-body">
-            {{ note.body | shortText(50) }}
+            {{ note.body ? note.body : 'No content' | shortText(50) }}
             </div>
             <hr class="body-hr">
           </md-card-content>

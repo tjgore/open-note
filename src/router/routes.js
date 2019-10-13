@@ -62,6 +62,6 @@ export const router = new VueRouter ({
 
 routes,
 mode: 'history',
-base: '/opennote'
+base: '/'
 
 });

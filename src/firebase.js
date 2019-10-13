@@ -1,8 +1,8 @@
 export const config = {
-     apiKey: "AIzaSyDNnGX6VdD8Jnm6PIfEYSYry_bromFFlRA",
-    authDomain: "open-c4b0d.firebaseapp.com",
-    databaseURL: "https://open-c4b0d.firebaseio.com",
-    projectId: "open-c4b0d",
-    storageBucket: "open-c4b0d.appspot.com",
-    messagingSenderId: "691471114919"
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    databaseURL: process.env.DATABASE_URL,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID
   };
