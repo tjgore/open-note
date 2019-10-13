@@ -7,6 +7,7 @@ npm-debug.log
 yarn-error.log
 data.svg
 bak.txt
+.env.js
 
 # Editor directories and files
 .idea
@@ -14,3 +15,4 @@ bak.txt
 *.ntvs*
 *.njsproj
 *.sln
+
